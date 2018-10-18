@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :organizer_id %>
-    <%= form.text_field :organizer_id, id: :event_organizer_id %>
+    <%= form.select :organizer_id, options_for_select(Organizer.all.map{|s|[s.name, s.id]}, @event.organizer_id) %>
   </div>
 
   <div class="actions">

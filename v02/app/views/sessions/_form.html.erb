@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label :event_id %>
-    <%= form.text_field :event_id, id: :session_event_id %>
+    <%= form.select :event_id, options_for_select(Event.all.map{|s|[s.name, s.id]}, @session.event_id) %>
   </div>
 
   <div class="field">
     <%= form.label :speaker_id %>
-    <%= form.text_field :speaker_id, id: :session_speaker_id %>
+    <%= form.select :speaker_id, options_for_select(Speaker.all.map{|s|[s.last_name, s.id]}, @session.speaker_id) %>
   </div>
 
   <div class="actions">
