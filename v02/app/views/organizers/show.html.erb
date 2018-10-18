@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @organizer.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @organizer.description %>
+</p>
+
+<%= link_to 'Edit', edit_organizer_path(@organizer) %> |
+<%= link_to 'Back', organizers_path %>

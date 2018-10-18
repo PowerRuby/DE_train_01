@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @session.topic %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @session.description %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @session.event %>
+</p>
+
+<p>
+  <strong>Speaker:</strong>
+  <%= @session.speaker %>
+</p>
+
+<%= link_to 'Edit', edit_session_path(@session) %> |
+<%= link_to 'Back', sessions_path %>
