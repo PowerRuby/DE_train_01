@@ -9,6 +9,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="schema">
+      <%= image_tag("train.gif", width: 216, height: 270, usemap: "#trainmap") %>
+      <map name="trainmap">
+        <area shape="rect" coords="110,5,210,50"     href="/organizers" alt="Organizer">
+        <area shape="rect" coords="10,105,120,160"   href="/speakers"   alt="Speaker">
+        <area shape="rect" coords="125,115,200,150"  href="/events"     alt="Events">
+        <area shape="rect" coords="64,220,162,265"   href="/sessions"   alt="Sessions">
+      </map>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
   </body>
 </html>
