@@ -1,0 +1,26 @@
+# PowerRuby Ltd
+#
+#   http://powerruby.com/
+#
+default: &default
+  adapter: irubydb
+  database: '*LOCAL'
+  username: '*CURRENT'
+  password: ''
+  default_schema: 'POWER_DATA'
+  journalling:
+    :jrn:          'PRUBYJRN'
+  connect_options:
+    :SQL_ATTR_COMMIT:      SQL_TXN_READ_COMMITTED
+    :SQL_ATTR_AUTOCOMMIT:  SQL_FALSE
+  env_options:                     
+    :SQL_ATTR_SERVER_MODE: SQL_TRUE
+    
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
