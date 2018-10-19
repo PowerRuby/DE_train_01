@@ -350,7 +350,7 @@ default: &default
   journalling:
     :jrn:          'PRUBYJRN'
   connect_options:
-    :SQL_TXN_COMMIT:       SQL_TXN_READ_COMMITTED
+    :SQL_ATTR_COMMIT:      SQL_TXN_READ_COMMITTED
     :SQL_ATTR_AUTOCOMMIT:  SQL_FALSE
   env_options:                     
     :SQL_ATTR_SERVER_MODE: SQL_TRUE
