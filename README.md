@@ -206,6 +206,14 @@ GitHub: username . . . . . . . .
 GitHub: password . . . . . . . .                                       
 GitHub: PowerRuby: project . . .   'DE_train_01'                       
 ```
+
+```
+POWER_RUBY/RAILSNEW RAILSAPP(TrainMeOnPowerRuby) 
+                    HTTPSRV(TRAIN)               
+                    EXTPORT(14141)               
+                    INTPORT(41414)               
+                    CRT(*GITHUB)
+```   
    
 Once completed you will have the possibility to access the application from a browser.
 Let us suppose x.x.x.x is the IP address of your IBM i system. 
