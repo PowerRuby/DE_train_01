@@ -469,7 +469,7 @@ Opt  Subsystem/Job  User        Type  CPU %  Function        Status
 
 The job executing **PGM-QZHBMAIN** is the one that was directly sumbitted.
 The Apache configuration file is `/www/TRAIN/conf/httpd.conf`. 
-We stop this activities with `ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)` and restart them with 
+We stop these activities with `ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)` and restart them with 
 `STRTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)`. 
  
 
