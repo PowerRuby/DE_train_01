@@ -4,7 +4,7 @@ This is a Rails application refined for execution inside IBM i 7.2 or higher.
 In order to be runnable on IBM i the **PowerRuby Community Edition v2** will be required.
 The save files to be installed are directly available in this GitHub project under the **release** tagged as [**V2R0M0**](https://github.com/PowerRuby/DE_train_01/releases/tag/V2R0M0).
 
-If you have a cURL command installed inside PASE (e.g. in a previous version of PowerRuby CE) and a direct connection to Internet from your IBM i you have the possibility to automate installation.
+If you have a cURL command installed inside PASE (e.g. in a previous version of PowerRuby CE) and a direct connection to Internet from your IBM i you have the possibility to [automate installation](https://github.com/PowerRuby/DE_train_01/blob/master/get1pruby1.md).
 
 Otherwise please adopt the conventional approach of downloading the save files required (*pruby_base*, *pruby_0001*, and *pruby_0006*) in a personal computer and then binary-transfer them in pre-existing, empty, savefiles on your IBM i system.
 
