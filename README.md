@@ -44,7 +44,7 @@ The net result using **WRKSFWRSC** will be the following:
 |   1PRUBY1   |  1     |   5002  | *CODE | POWER_RUBY | V2R0M0  |
 |   1PRUBY1   |  6     |   5001  | *CODE | POWER_RUBY | V2R0M0  |
 
-Please note that on a system with a primary language that differs from **2924** the language component of option 5001 will get installed in a library named **POWER_SLNG** (you may be interested in using `ADDLIBLE LIB(POWER_SLNG)`).
+Please note that on a system with a primary language that differs from **2924** the language component of option *BASE will get installed in a library named **POWER_SLNG** (you may be interested in using `ADDLIBLE LIB(POWER_SLNG)`).
 
 | Resource ID | Option | Feature | Type  |  Library   | Release |
 | ----------- |:------ |:-------:|:----- |:---------- |:------- |
