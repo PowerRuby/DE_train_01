@@ -28,7 +28,7 @@ First of all, let us check if 1PRUBY1 product program is already installed on yo
 
 To be able to run the Rails application provided in this GitHub project (**DE\_train\_01**) you are required to install at least three options of PowerRuby: **\*BASE**, **option 1** and **option 6**.
 
-The net result using **WRKSFWRSC** will be the following:
+The net result using **DSPSFWRSC** will be the following:
 
 | Resource ID | Option | Feature | Description                                    | 
 | ----------- |:------ |:-------:|:---------------------------------------------- |   
